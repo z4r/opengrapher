@@ -1,0 +1,33 @@
+{
+  "name": "opengrapher",
+  "version": "1.0.0",
+  "description": "A Node module to parse opengraphs of a webpage",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/z4r/opengrapher.git"
+  },
+  "keywords": [
+    "opengraph",
+    "facebook",
+    "fb",
+    "ogparser"
+  ],
+  "author": "Andrea De Marco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/z4r/opengrapher/issues"
+  },
+  "homepage": "https://github.com/z4r/opengrapher",
+  "dependencies": {
+    "jsdom": "^0.10.5"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.19.0",
+    "nock": "^0.31.3"
+  }
+}
