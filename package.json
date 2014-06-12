@@ -1,6 +1,6 @@
 {
   "name": "opengrapher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Node module to parse opengraphs of a webpage",
   "main": "lib/index.js",
   "scripts": {
